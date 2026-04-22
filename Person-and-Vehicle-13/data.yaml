@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bus', 'car', 'motorcycle', 'person', 'truck']
+
+roboflow:
+  workspace: person-and-vehicles-road-cctv
+  project: person-and-vehicle
+  version: 13
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/person-and-vehicles-road-cctv/person-and-vehicle/dataset/13
