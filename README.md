@@ -152,7 +152,7 @@ runs/detect/
 
 示例检测图如下：
 
-![](Person-and-Vehicle-13\runs\detect\predict\test1.jpg)
+![](Person-and-Vehicle-13/runs/detect/predict/test1.jpg)
 
 从结果来看，模型已经大致能识别图像中的行人和车辆，具有较高的精确率，但由于模型是在CPU环境下训练且训练轮数较少，模型仍有一定的识别误差，召回率仍有提升空间，说明仍存在一定漏检现象。
 
